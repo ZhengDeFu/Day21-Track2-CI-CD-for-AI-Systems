@@ -1,5 +1,6 @@
 [core]
     remote = myremote
+    site_cache_dir = .dvc/tmp/site_cache
 ['remote "myremote"']
     url = gs://mlops-lab-zhengdefu-20260507/dvc
     credentialpath = ../sa-key.json
