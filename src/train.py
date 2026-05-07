@@ -8,8 +8,7 @@ import os
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.metrics import accuracy_score, f1_score
 
-EVAL_THRESHOLD = 0.70
-
+EVAL_THRESHOLD = 0.65
 
 def train(
     params: dict,
